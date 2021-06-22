@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="/index.css">
   <title>Fashion Site</title>
 </head>
 
@@ -15,7 +16,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
       <div>
-        <h1 class="navbar-brand h1 mb-0">Agile Athletics</h1>
+        <h1 class="navbar-brand h1 mb-0"><a class="link-decoration-none h2" href="/index.html">Agile Athletics</a></h1>
       </div>
       <div>
         <ul class="navbar-nav mr-auto">
@@ -31,26 +32,28 @@
   </header>
 
   <main>
-    <section>
-      <h1>Redifine Athletic.</h1>
-      <div>
+    <section class="top-section d-flex flex-column">
+      <h1 class="m-5">Redifine Athletic.</h1>
+      <div class="align-self-center mt-auto">
         <p>Scroll Down.</p>
         <!-- Find icon on site and replace the below img tag with the icon -->
         <img src="" />
       </div>
     </section>
-    <section>
-      <h2>We fight. We win.</h2>
-      <p>Fullfilling your athletic needs no matter what age. Fabrication with breathable and durable materials is how we
+    <hr>
+    <section class="descending-section d-flex justify-content-between align-items-center">
+      <h2 class="text-right titletwo h1">We fight. We win.</h2>
+      <p class="text-center h4">Fullfilling your athletic needs no matter what age. Fabrication with breathable and durable materials is how we
         help you
         win.</p>
     </section>
-    <section>
+    <hr>
+    <section class="descending-section d-flex flex-column align-items-center justify-content-around">
       <h3>Stop waiting. Grab your next medal now!</h3>
-      <div>
-        <a href="shop-pages/kids/index.html"><button>Shop Kids.</button></a>
-        <a href="shop-pages/mens/index.html"><button>Shop Mens.</button></a>
-        <a href="shop-pages/womens/index.html"><button>Shop Womens.</button></a>
+      <div class="d-flex justify-content-around action-btns mx-5">
+        <a href="shop-pages/kids/index.html"><button class="action-btn">Shop Kids.</button></a>
+        <a href="shop-pages/mens/index.html"><button class="action-btn">Shop Mens.</button></a>
+        <a href="shop-pages/womens/index.html"><button class="action-btn">Shop Womens.</button></a>
       </div>
     </section>
   </main>
