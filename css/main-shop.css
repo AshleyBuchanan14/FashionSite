@@ -1,0 +1,25 @@
+.main-title {
+	text-align: center;
+	width: 50%;
+	margin-top: 70px;
+}
+
+.column {
+	width: 50%;
+	float: left;
+}
+
+.lower {
+	margin-top: 60px;
+}
+
+section {
+	height: 400px;
+	margin: 20px;
+	background: #f8e0af;
+	clear: both;
+}
+
+#wrapper {
+	width: 100%;
+}
