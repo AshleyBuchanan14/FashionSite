@@ -17,3 +17,7 @@
 .filter-height {
 	height: 100px;
 }
+
+.select-border {
+	border-radius: 20px;
+}
