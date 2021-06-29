@@ -1,5 +1,7 @@
 :root {
-	--main: blue;
-	--secondary: green;
-	--accent: yellow;
+	--main: #eddcd2;
+	--secondary: #ebc3a8;
+	--accent: #cb997e;
+	--offwhite: #f0efeb;
+	--darkcolor: rgb(39, 28, 16);
 }
