@@ -22,4 +22,29 @@ section {
 
 #wrapper {
 	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+/* Images are not uniform sizes so there needs to be some unique sizing for each of them. There may be a better way to handle this but this is a quick fix for now. */
+/* Mens images */
+.shop-img-one {
+	width: 600px;
+}
+.shop-img-two {
+	width: 600px;
+}
+.shop-img-three {
+	width: 600px;
+}
+.shop-img-four {
+	width: 450px;
+}
+
+/* Womens images */
+.shop-img-one-women {
+	width: 475px;
+}
+.shop-img-two-women {
+	width: 450px;
 }

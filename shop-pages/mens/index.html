@@ -9,14 +9,17 @@
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/main-shop.css">
     <link rel="stylesheet" href="/css/filter.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/variables.css">
+    <link rel="stylesheet" href="/css/shared.css">
   <title>Shop Mens</title>
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+    <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
       <div>
-      <h1 class="navbar-brand h1 mb-0"><a href="/index.html">Agile Athletics</a></h1>
+      <h1 class="navbar-brand h1 mb-0"><a class="link-decoration-none h2" href="/index.html">Agile Athletics</a></h1>
       </div>
       <div>
         <ul class="navbar-nav mr-auto">
@@ -32,23 +35,48 @@
     <form>
       <fieldset class="d-flex py-3 bckgrnd-color filter-height">
         <div class="flex-grow-1 pl-5">
-          <div>
+          <div class="h4">
             Filter by:
           </div>
           <div class="d-flex">
-            <div class="px-5 py-1">Price <></div>
-            <div class="px-5 py-1">Color <></div>
-            <div class="px-5 py-1">Size <></div>
+            <label for="Price" class="px-5 py-1">Price:</label>
+            <select name="Price" id="Price" class="select-border px-2">
+              <option value="none"> N/A</option>
+              <option value="$50">
+                < $50</option>
+              <option value="$100">
+                < $100</option>
+              <option value="$150">
+                < $150</option>
+              <option value="$200">
+                < $200</option>
+            </select>
+            <label for="Color" class="px-5 py-1">Color:</label>
+            <select name="Color" id="Color" class="select-border px-2">
+              <option value="none"> N/A</option>
+              <option value="blue">Blue</option>
+              <option value="green">Green</option>
+              <option value="black">Black</option>
+            </select>
+            <label for="Size" class="px-5 py-1">Size:</label>
+            <select name="Size" id="Size" class="select-border px-2">
+              <option value="none"> N/A</option>
+              <option value="exsmall">Extra Small</option>
+              <option value="small">Small</option>
+              <option value="medium">Medium</option>
+              <option value="large">Large</option>
+              <option value="exlarge">Extra Large</option>
+            </select>
           </div>
         </div>
         <hr class="hr">
         <div class="sorting-width ml-5">
-          <div >
-          Sort by:
-          </div>
-          <div class="px-5 py-1">
-            Price <>
-          </div>
+          <label for="Price" class="px-5 py-1">Price:</label>
+          <select name="Price" id="Price" class="select-border px-2">
+            <option value="none"> N/A</option>
+            <option value="$50">lowest -> highest</option>
+            <option value="$100">highest -> lowest</option>
+          </select>
         </div>
       </fieldset>
     </form>
@@ -59,33 +87,29 @@
     <h1 class="main-title">Mens.</h1>
 
     <div id="wrapper">
-      <div class="column lower">
-        <section>
-        </section>
-        <div class="d-flex justify-content-between">
-          <figcaption class="ml-4 mb-2">Shoes</figcaption>
-          <figcaption class="mr-4 mb-2">10$</figcaption>
+      <div class="column lower text-center">
+        <img src="/images/mens/running shoe men.jpeg" class="shop-img-one ml-4"></img>
+        <div class="d-flex flex-column">
+          <figcaption class="mt-1 h5 mb-2">Running Shoes</figcaption>
+          <figcaption class="mt-1 mb-4">100$</figcaption>
         </div>
-        <section>
-        </section>
-        <div class="d-flex justify-content-between">
-          <figcaption class="ml-4 mb-2">Shoes</figcaption>
-          <figcaption class="mr-4 mb-2">10$</figcaption>
+        <img src="/images/mens/mens running pants.jpeg" class="shop-img-two ml-4"></img>
+        <div class="d-flex flex-column">
+          <figcaption class="h5 mb-2">Athletic Shorts</figcaption>
+          <figcaption class="mb-4">40$</figcaption>
         </div>
       </div>
     
-      <div class="column">
-        <section>
-        </section>
-        <div class="d-flex justify-content-between">
-          <figcaption class="ml-4 mb-2">Shoes</figcaption>
-          <figcaption class="mr-4 mb-2">10$</figcaption>
-        </div>
-        <section>
-        </section>
-        <div class="d-flex justify-content-between">
-          <figcaption class="ml-4 mb-2">Shoes</figcaption>
-          <figcaption class="mr-4 mb-2">10$</figcaption>
+      <div class="column text-center">
+        <img src="/images/mens/men running shorts.jpeg" class="shop-img-three ml-4"></img>
+      <div class="d-flex flex-column">
+        <figcaption class="mt-1 h5 mb-2">Athletic Joggers</figcaption>
+        <figcaption class="mt-1 mb-4">50$</figcaption>
+      </div>
+      <img src="/images/mens/mens athletic sweatshirt.jpg" class="shop-img-four ml-4"></img>
+        <div class="d-flex flex-column">
+          <figcaption class="mt-1 h5 mb-2">Fittted Hoodie</figcaption>
+          <figcaption class="mt-1 mb-4">65$</figcaption>
         </div>
       </div>
     </div>
