@@ -2,6 +2,10 @@
 	text-decoration: none;
 	color: black;
 }
+.home-img {
+	height: 80%;
+	width: 80%;
+}
 .top-section {
 	height: calc(100vh - 65px);
 	width: 100%;
